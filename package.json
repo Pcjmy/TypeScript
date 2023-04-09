@@ -4,7 +4,7 @@
   "description": "TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --detectOpenHandles",
     "dev": "nodemon --watch src/ -e ts --exec ts-node ./src/index.ts"
   },
   "repository": {
